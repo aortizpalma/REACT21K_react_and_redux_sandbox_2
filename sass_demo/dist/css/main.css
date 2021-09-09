@@ -1,0 +1,65 @@
+body {
+  background-color: coral;
+  margin: 0;
+  top: 0; }
+
+h1 {
+  color: purple;
+  text-transform: uppercase;
+  padding-left: 12px; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+  nav a:hover {
+    color: white;
+    text-decoration: underline;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease; }
+
+.content {
+  min-height: 25vh;
+  padding: 2rem; }
+  .content-a {
+    background-color: green; }
+    .content-a h2 {
+      color: white; }
+  .content-b {
+    background-color: blue; }
+    .content-b h2 {
+      color: red; }
+
+.btn, .btn-light, .btn-dark {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px; }
+  .btn:hover, .btn-light:hover, .btn-dark:hover {
+    background-color: gray; }
+
+.btn-light {
+  background-color: red; }
+  .btn-light:hover {
+    background: #ff8080; }
+
+.btn-dark {
+  background-color: purple; }
+  .btn-dark:hover {
+    background: #010001; }
+
+header,
+footer,
+main {
+  background-color: gray; }
